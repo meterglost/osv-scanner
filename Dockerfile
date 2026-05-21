@@ -14,6 +14,6 @@ RUN apk --no-cache add ca-certificates git && \
     git config --global --add safe.directory '*'
 
 WORKDIR /root/
-COPY --from=builder /src/osv-scanner .
+COPY --from=builder /workspack/build/osv-scanner .
 
 ENTRYPOINT ["/root/osv-scanner"]
