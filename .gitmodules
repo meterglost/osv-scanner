@@ -1,0 +1,8 @@
+[submodule "osv-scalibr"]
+	path = osv-scalibr
+	url = https://github.com/meterglost/osv-scalibr.git
+	branch = feat/maven-local-bom
+[submodule "osv-scanner"]
+	path = osv-scanner
+	url = https://github.com/google/osv-scanner.git
+	branch = main
